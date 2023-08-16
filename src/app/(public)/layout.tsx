@@ -1,5 +1,7 @@
+import { MainThemeProvider } from "@/providers";
 import { Inter, Laila, Montserrat } from 'next/font/google';
-import './globals.css';
+import '../globals.css';
+import { Header } from "@/components";
 
 const inter = Inter({ subsets: ['latin', 'cyrillic', 'latin-ext', 'cyrillic-ext'], variable: "--font-inter" });
 const montserrat = Montserrat({ subsets: ['latin', 'cyrillic', 'latin-ext', 'cyrillic-ext'], variable: "--font-montserrat" });
@@ -19,7 +21,10 @@ export default function RootLayout({
     <>
       <html suppressHydrationWarning lang="en">
         <body className={`${inter.variable} ${montserrat.variable} ${laila.variable} font-montserrat`}>
-          {children}
+          <MainThemeProvider>
+            <Header />
+            {children}
+          </MainThemeProvider>
         </body>
       </html>
     </>

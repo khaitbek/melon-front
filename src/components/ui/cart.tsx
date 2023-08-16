@@ -8,7 +8,7 @@ interface CardProps extends ComponentProps<"div"> {
 
 export function Cart({ className, body = "Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.", title = "Lorem ipsum" }: CardProps) {
   return (
-    <div className={cn(" pt-[50px] pb-[78px] px-[69px] max-w-[524px] mx-auto rounded-[16px] bg-stone-100 cursor-pointer transition-colors hover:bg-stone-300 dark:bg-stone-800 dark:hover:bg-stone-900", className)}>
+    <div className={cn(" pt-[50px] pb-[78px] px-[69px] max-w-[524px] mx-auto rounded-[16px] bg-stone-100 cursor-pointer transition-colors hover:bg-stone-300 dark:bg-stone-800 dark:hover:bg-stone-950", className)}>
       <HeadingThree className="mb-8 text-white text-center text-[38px] leading-[141.156%] text-montserrat">
         {title}
       </HeadingThree>

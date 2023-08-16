@@ -1,4 +1,10 @@
-import { Button, Logo, Navbar, SearchBar } from "@/components";
+import { AdminInput, Button, Logo, Navbar, SearchBar, ThemeToggler } from "@/components";
+import { ComponentProps, FC } from "react";
+import { AdminHeaderSearchInput } from "./routing/AdminSearchInput";
+
+interface AdminHeaderProps {
+
+}
 
 export function Header() {
   return (
@@ -17,9 +23,23 @@ export function Header() {
             <Button variant="orange">
               Register
             </Button>
+            <ThemeToggler />
           </div>
         </div>
       </div>
     </header>
   )
 }
+
+export const AdminHeader: FC<AdminHeaderProps> = ({ }) => {
+  return (
+    <header className="py-6 px-10 bg-white dark:bg-stone-950">
+      <div className="container">
+        <div className="flex justify-between items-center gap-6">
+          <AdminHeaderSearchInput />
+        </div>
+      </div>
+    </header>
+  )
+}
+
