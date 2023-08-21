@@ -22,7 +22,7 @@ export default function RootLayout({
       <html suppressHydrationWarning lang="en">
         <body className={`${inter.variable} ${montserrat.variable} ${laila.variable} font-montserrat`}>
           <MainThemeProvider>
-            <Header />
+            {/* <Header /> */}
             {children}
           </MainThemeProvider>
         </body>
