@@ -31,6 +31,5 @@ export const NavLink: FC<NavLinkProps> = ({ className, href, children, logo, act
     </li>
   )
   const Comp = pathName === String(href) ? ActiveLink : defaultLink;
-  console.log(pathName, href, String(href));
   return Comp;
 }

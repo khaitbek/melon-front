@@ -1,0 +1,88 @@
+{
+  "navigation": {
+    "home": "Sizni arab olami kutmoqda",
+    "edit": "Tahrirlash",
+    "new": "Yangi qo'shish",
+    "login": "Tizimga kirish",
+    "back": "Ortga",
+    "signup": "Ro'yxatdan o'tish"
+  },
+  "page": {
+    "home": {},
+    "about": {}
+  },
+  "table": {},
+  "form": {
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "login": {
+      "title": "Tizimga kirish",
+      "subtitle": "Qaytib kelganingizdan xursandmiz! Ma'lumotlaringizni kiriting!",
+      "fields": {
+        "username": {
+          "label": "Username",
+          "placeholder": "Username",
+          "error": ""
+        },
+        "password": {
+          "label": "Parol",
+          "placeholder": "••••••••",
+          "error": ""
+        }
+      },
+      "forgotPassword": "Parolni unutdingizmi?",
+      "noProfile": "Profilingiz yo'qmi?"
+    },
+    "signup": {
+      "title": "Ro’yxatdan o’tish",
+      "subtitle": "Bepul sinov darslari sizni kutmoqda!",
+      "fields": {
+        "username": {
+          "label": "Username*",
+          "placeholder": "Username",
+          "error": ""
+        },
+        "password": {
+          "label": "Parol*",
+          "placeholder": "••••••••",
+          "error": "Kamida 8 ta belgidan iborat bo'lishi kerak!"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Email kiriting",
+          "error": "Iltimos, to'g'ri e-mailni kiriting!"
+        },
+        "lastName": {
+          "label": "Familiya",
+          "placeholder": "Familiya",
+          "error": ""
+        },
+        "firstName": {
+          "label": "Ism",
+          "placeholder": "Ism",
+          "error": ""
+        },
+      },
+      "haveProfile": "Profilingiz bormi?"
+    },
+    "teacher": {
+      "fields": {
+        "lastName": {
+          "label": "Familiya",
+          "placeholder": "Familiya",
+          "error": ""
+        },
+        "firstName": {
+          "label": "Ism",
+          "placeholder": "Ism",
+          "error": ""
+        },
+        "description": {
+          "label": "Ism",
+          "placeholder": "Ism",
+          "error": ""
+        },
+      }
+    }
+  }
+}

@@ -26,12 +26,12 @@ const sidebarItems: SidebarGroup[] = [
     title: "ADMIN PANEL",
     items: [
       {
-        href: "/admin",
+        href: "/teachers",
         name: "Ustozlar",
         logo: <TeacherLogo />
       },
       {
-        href: "/company",
+        href: "/edu-centers",
         name: "O'quv markazi",
         logo: <EduCenterLogo />
       }
@@ -46,7 +46,7 @@ const sidebarItems: SidebarGroup[] = [
         logo: <UsersLogo />
       },
       {
-        href: "/auth-users",
+        href: "/submitted-users",
         name: "Tasdiqlangan user",
         logo: <SubmittedUsersLogo />
       }

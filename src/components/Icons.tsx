@@ -53,3 +53,22 @@ export const SignoutLogo = () => {
     </svg>
   )
 }
+
+export const BackLogo = () => {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="7"
+            height="11"
+            viewBox="0 0 7 11"
+            fill="currentColor"
+        >
+            <path
+                d="M6 0.5L1 5.5L6 10.5"
+                stroke="#121212"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            />
+        </svg>
+    )
+}

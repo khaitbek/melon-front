@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
  
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -75,4 +76,16 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.filepond--drop-label{
+  min-height: 4vh !important;
+}
+
+.filepond--root {
+  margin-bottom: 0 !important;
+}
+
+.filepond--credits{
+  display: none;
 }
